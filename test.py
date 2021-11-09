@@ -1,6 +1,6 @@
 from cassandra.cluster import Cluster
 
-cluster = Cluster(['cas-teb-doc001s.infra.azion.net'])
+cluster = Cluster(['<host>'])
 
 session = cluster.connect()
 
